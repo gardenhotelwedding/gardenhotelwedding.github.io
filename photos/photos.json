@@ -70,6 +70,20 @@
   "hero": false
  },
  {
+  "id": "img-4617",
+  "w": 4000,
+  "h": 6000,
+  "chapter": "snap",
+  "hero": false
+ },
+ {
+  "id": "img-4618",
+  "w": 4000,
+  "h": 6000,
+  "chapter": "snap",
+  "hero": false
+ },
+ {
   "id": "img-4888",
   "w": 6000,
   "h": 4000,
@@ -322,13 +336,6 @@
   "hero": false
  },
  {
-  "id": "pre-pre-07",
-  "w": 3648,
-  "h": 5472,
-  "chapter": "pre",
-  "hero": false
- },
- {
   "id": "pre-pre-08",
   "w": 5472,
   "h": 3648,
@@ -346,6 +353,27 @@
   "id": "pre-pre-10",
   "w": 5472,
   "h": 3648,
+  "chapter": "pre",
+  "hero": false
+ },
+ {
+  "id": "pre-pre-11",
+  "w": 3648,
+  "h": 5472,
+  "chapter": "pre",
+  "hero": false
+ },
+ {
+  "id": "pre-pre-12",
+  "w": 3648,
+  "h": 5472,
+  "chapter": "pre",
+  "hero": false
+ },
+ {
+  "id": "pre-pre-13",
+  "w": 3648,
+  "h": 5472,
   "chapter": "pre",
   "hero": false
  }

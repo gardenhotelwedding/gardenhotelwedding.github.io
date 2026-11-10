@@ -13,13 +13,14 @@ import piexif
 from PIL import Image, ImageOps
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SKIP = {'P20260409_140527000', 'IMG_4650', 'IMG_4743', 'IMG_4944',
+SKIP = {'PRE_pre-07', 'IMG_8064',  # 웨딩촬영 화이트룸 카라 투샷(삭제 요청) / 네일팁 샘플(저해상도)
+        'P20260409_140527000', 'IMG_4650', 'IMG_4743', 'IMG_4944',
         'f3dd3e035ebe71e176f667a09ba5e594668cbbc5',  # IMG_2393과 같은 사진(작은 사본)
         'P20260328_120544518', 'IMG_8161',  # 2부 복도 사진: 보정 전 / 1차 보정 → 최종 보정본 IMG_8182만 사용
         'IMG_8170'}  # 2부 무대 사진 보정 전 → 보정본 IMG_8183  # 캡처 모음 / 잘못 올라간 사진 / 신랑·신부만 남기기
 # 서사포토그라피 본식스냅(소니 미러리스, 3:2) / 아이폰 스냅(3:4) — 나열 순서도 이 목록대로
 SNAP = ['5-0', 'IMG_7762', 'SNAP_bride_bouquet', 'SNAP_couple_seated', 'IMG_7832', 'SNAP_father_walk', 'SNAP_stage',
-        'IMG_8125', 'IMG_8145', 'IMG_8146', 'IMG_4888', 'IMG_4887', 'IMG_8110', 'IMG_5214']
+        'IMG_8125', 'IMG_8145', 'IMG_8146', 'IMG_4617', 'IMG_4618', 'IMG_4888', 'IMG_4887', 'IMG_8110', 'IMG_5214']
 IPHONE = [  # 식순대로: 원판 → 신부대기실 → 축가 → 인사·행진 → 2부(핑크 드레스, 구두가 마지막)
     'MAIN_hero', 'IPH_bride_aisle', 'f56109acb6246790059f9f99b158f0edeb178596', 'IMG_8143',            # 원판
     'P20260328_100401018', 'P20260328_100603916', 'IMG_2393', 'IMG_4607', 'IMG_4608',
