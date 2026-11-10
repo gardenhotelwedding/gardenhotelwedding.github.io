@@ -31,7 +31,10 @@ IPHONE = [  # 식순대로: 원판 → 신부대기실 → 축가 → 인사·�
     'IMG_5410', 'IMG_8182', 'IMG_8183', 'IMG_8171', 'IMG_8144', 'IMG_8162', 'P20260408_095752458',  # 2부
 ]
 CHAPTERS = {**{k: 'snap' for k in SNAP}, **{k: 'iphone' for k in IPHONE}}
-ORDER = SNAP + IPHONE
+# 웨딩촬영: 비슷한 장면끼리 붙여 둔다 (화장대 거울 컷 pre-08·pre-18 나란히)
+PRE = ['pre-01', 'pre-02', 'pre-03', 'pre-04', 'pre-05', 'pre-06', 'pre-08', 'pre-18', 'pre-09', 'pre-10',
+       'pre-11', 'pre-12', 'pre-13', 'pre-14', 'pre-15', 'pre-16', 'pre-17', 'pre-19']
+ORDER = SNAP + IPHONE + ['PRE_' + k for k in PRE]
 HERO = 'MAIN_hero'  # 대화창으로 받은 사진(1536px). 원본을 받으면 교체
 PIN = '0328'
 

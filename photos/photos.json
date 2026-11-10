@@ -343,6 +343,13 @@
   "hero": false
  },
  {
+  "id": "pre-pre-18",
+  "w": 5472,
+  "h": 3648,
+  "chapter": "pre",
+  "hero": false
+ },
+ {
   "id": "pre-pre-09",
   "w": 5472,
   "h": 3648,
@@ -374,6 +381,41 @@
   "id": "pre-pre-13",
   "w": 3648,
   "h": 5472,
+  "chapter": "pre",
+  "hero": false
+ },
+ {
+  "id": "pre-pre-14",
+  "w": 3648,
+  "h": 5472,
+  "chapter": "pre",
+  "hero": false
+ },
+ {
+  "id": "pre-pre-15",
+  "w": 3648,
+  "h": 5472,
+  "chapter": "pre",
+  "hero": false
+ },
+ {
+  "id": "pre-pre-16",
+  "w": 3648,
+  "h": 5472,
+  "chapter": "pre",
+  "hero": false
+ },
+ {
+  "id": "pre-pre-17",
+  "w": 4095,
+  "h": 2730,
+  "chapter": "pre",
+  "hero": false
+ },
+ {
+  "id": "pre-pre-19",
+  "w": 5472,
+  "h": 3648,
   "chapter": "pre",
   "hero": false
  }
